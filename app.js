@@ -29,7 +29,7 @@ chooseTimeButton.addEventListener('click', () => {
   } else {
     chooseTimeElement.remove()
     const newBtn = document.createElement('li')
-    newBtn.innerHTML = `${input.value} сек`
+    newBtn.innerHTML = `${input.value} sec`
     newBtn.classList.add('time-btn')
     newBtn.setAttribute("data-time", input.value)
     timeList.append(newBtn)
