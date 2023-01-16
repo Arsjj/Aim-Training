@@ -96,7 +96,7 @@ function finishGame() {
   board.append(newBtn)
 
   newBtn.addEventListener('click', () => {
-    screens[1].classList.remove('up')
+    location.reload()
   })
 }
 
