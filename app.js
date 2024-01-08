@@ -96,8 +96,8 @@ function finishGame() {
   board.append(newBtn)
 
   newBtn.addEventListener('click', () => {
-    location.reload()
-    
+    // location.reload()
+    location.replace(location)
   })
 }
 
