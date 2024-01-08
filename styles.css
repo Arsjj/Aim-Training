@@ -143,3 +143,9 @@ h1 {
   border: 2px solid #16D9E3;
   color: #16D9E3;
 }
+
+@media screen and (max-width: 500px) {
+  .board {
+    width: 100%;
+  }
+}

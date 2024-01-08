@@ -97,6 +97,7 @@ function finishGame() {
 
   newBtn.addEventListener('click', () => {
     location.reload()
+    
   })
 }
 
